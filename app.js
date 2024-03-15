@@ -4,4 +4,6 @@ let vm = Vue.createApp({
       message: "Hello world!"
     }
   }
-}).mount('#app')
+})
+
+vm.mount('#app')
