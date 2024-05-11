@@ -4,6 +4,18 @@ let vm = Vue.createApp({
       message: "Hello world!",
     };
   },  
+  beforeCreate(){
+    console.log('beforeCreate() function called', this.message)
+  },
+  created(){
+    console.log('created() function called', this.message)
+  },
+  beforeMount(){
+    console.log('beforeMount() function called', this.$el)
+  },
+  mounted(){
+    console.log('mounted() function called', this.$el)
+  }
 });
 
 vm.Vue.createApp()
