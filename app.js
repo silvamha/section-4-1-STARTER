@@ -21,7 +21,13 @@ let vm = Vue.createApp({
   },
   updated(){
     console.log('updated() function called')
-  }  
+  },
+  beforeUnmount(){
+    console.log('beforeUnmount() function called')
+  }, 
+  unmounted(){
+    console.log('unmounted() function called')
+  } 
 });
 
 vm.mount('#app')
