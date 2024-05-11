@@ -5,3 +5,7 @@ body{
 .red{
   color: red;
 }
+
+[v-cloak]{
+  display: none;
+}
