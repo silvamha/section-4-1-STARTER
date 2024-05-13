@@ -4,6 +4,9 @@ let vm = Vue.createApp({
       message: "Hello world!",
     };
   },  
+  template:{
+    `{{ message }}`
+  }
   // beforeCreate(){
   //   console.log('beforeCreate() function called', this.message)
   // },
