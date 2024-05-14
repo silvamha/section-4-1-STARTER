@@ -1,5 +1,5 @@
 import path from 'path'
-import { largeNumber } from "./script2.mjs";
+import { largeNumber } from "./_script2.mjs";
 
 const a = largeNumber;
 
